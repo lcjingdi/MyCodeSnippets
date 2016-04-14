@@ -3,29 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>screatewindowwithcode</string>
+	<string>ocopy</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        window?.backgroundColor = UIColor.whiteColor()
-        window?.rootViewController = &lt;#rootViewController#&gt;
-        window?.makeKeyAndVisible()</string>
+	<string>@property (nonatomic, copy) &lt;#type#&gt; *&lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>044D77B8-E5DB-45B7-888B-FEA4EC949414</string>
+	<string>DFB85318-BA2E-4747-9E83-58F604A775D4</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>screateWindowWithoutXibOrStoryboard</string>
+	<string>CopyProperty</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>CreateWindowWithoutXibOrStoryboard</string>
+	<string>CopyProperty</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
