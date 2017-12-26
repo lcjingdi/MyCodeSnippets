@@ -3,22 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ostrong</string>
+	<string>lazy</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) &lt;#type#&gt; *&lt;#name#&gt;;</string>
+	<string>- (&lt;#property type#&gt; *)&lt;#property name#&gt; {
+    if (_&lt;#property name#&gt; == nil) {
+        _&lt;#property name#&gt; = [[&lt;#property type#&gt; alloc] init];
+    }
+    return _&lt;#property name#&gt;;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DF151C97-F116-48D7-8F86-5E77AE37756F</string>
+	<string>1E2B4592-18D1-49D8-96B4-B3A669A132C5</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>strongProperty</string>
+	<string>lazy property</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

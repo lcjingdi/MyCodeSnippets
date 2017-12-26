@@ -3,22 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>xassign</string>
+	<string>tableviewcell_create</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, assign) &lt;#type#&gt; &lt;#typeName#&gt;;</string>
+	<string>NSString *identifier = @"&lt;#identifier#&gt;";
+    UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:identifier];
+    return cell;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8CAEA79F-EBC8-46B0-AEB3-62E354848ED2</string>
+	<string>7E98A775-24C5-401B-A7F4-FB3E86BDC9DD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>assignProperty</string>
+	<string>UITableViewCellCreateCell</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
